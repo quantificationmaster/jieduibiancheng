@@ -501,6 +501,8 @@ Page({
     this.setData({pju:ju});
   }
   if(ju>zhonghuihe){
+    ju=1;
+    this.setData({pju:ju});
     wx.navigateTo({
       url: '/pages/overren/overren?bot1=' + ppoint1+ '&bot2=' + ppoint2+'&who='+GAME.flag,
   })

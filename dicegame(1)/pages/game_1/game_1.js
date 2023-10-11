@@ -6,6 +6,7 @@ class duiju{
     this.pz1=[0,0,0,0,0];
     this.pz2=[0,0,0,0,0];
     this.flag=0;
+    
   }
   lock(x,num){
     if(num==1){
@@ -312,7 +313,7 @@ Page({
   /**
    * 生命周期函数--监听页面卸载
    */
-  onUnload() {
+  onUnload:function() {
 
   },
 
@@ -461,6 +462,7 @@ Page({
       this.setData({point2:ppoint2});
       }
       else{
+        zhonghuihe=0;
         wx.navigateTo({
           url: '/pages/over/over?bot1=' + ppoint1+ '&bot2=' +ppoint2+'&who='+GAME.flag,
       })
@@ -474,6 +476,7 @@ Page({
       this.setData({point2:ppoint2});
       }
       else{
+        zhonghuihe=0;
         wx.navigateTo({
           url: '/pages/over/over?bot1=' + ppoint1+ '&bot2=' +ppoint2+'&who='+GAME.flag,
       })
@@ -498,6 +501,9 @@ Page({
     this.setData({pju:ju});
   }
   if(ju>zhonghuihe){
+    zhonghuihe=0;
+    ju=1;
+    this.setData({pju:ju});
     wx.navigateTo({
       url: '/pages/over/over?bot1=' + ppoint1+ '&bot2=' + ppoint2+'&who='+GAME.flag,
   })
