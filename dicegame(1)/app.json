@@ -1,0 +1,31 @@
+{
+  "usingComponents": {
+    "bgm": "/components/music/music"
+},
+
+  "pages":[
+    "pages/index/index",
+    "pages/login/login",
+    "pages/list/list",
+    "pages/rule/rule",
+    "pages/game_1/game_1",
+    "pages/game_2/game_2",
+    "pages/over/over",
+    "pages/theCharts/theCharts",
+    "pages/ben/ben",
+    "pages/ren/ren",
+    "pages/overren/overren"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "孤注一掷",
+    "navigationBarTextStyle":"black",
+    "backgroundColor": "#efefef"
+  },
+
+
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

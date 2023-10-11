@@ -1,0 +1,108 @@
+<bgm />
+<view class="content">
+    <image class='background' src="https://s2.loli.net/2023/10/10/zg2HeXiAhkfPZLt.jpg" mode="aspectFill"></image>
+  </view>
+<view class="dice-container">
+    <view class="dice1">
+    <view class="column1"bindtap="lock"data-column="1"  data-num="1">
+      <image src="{{pj1[0]}}"></image>
+    </view >
+    <view class="column2"bindtap="lock"data-column="2"  data-num="1">
+      <image src="{{pj1[1]}}"></image>
+    </view>
+    <view class="column3"bindtap="lock"data-column="3"  data-num="1">
+      <image src="{{pj1[2]}}"></image>
+    </view>
+    <view class="column4"bindtap="lock"data-column="4"  data-num="1">
+      <image src="{{pj1[3]}}"></image>
+    </view>
+    <view class="column5"bindtap="lock"data-column="5"  data-num="1">
+      <image src="{{pj1[4]}}"></image>
+    </view>
+    </view>
+    <view class="dicesuo1">
+      <view class="column1"data-column="1"  data-num="1">
+      <image src="{{ps1[0]}}"></image>
+    </view >
+    <view class="column2"data-column="2"  data-num="1">
+      <image src="{{ps1[1]}}"></image>
+    </view>
+    <view class="column3"data-column="3"  data-num="1">
+      <image src="{{ps1[2]}}"></image>
+    </view>
+    <view class="column4"data-column="4"  data-num="1">
+      <image src="{{ps1[3]}}"></image>
+    </view>
+    <view class="column5"data-column="5"  data-num="1">
+      <image src="{{ps1[4]}}"></image>
+    </view>
+    </view>
+    <view class="dicesuo2">
+      <view class="column1"data-column="1"  data-num="2">
+      <image src="{{ps2[0]}}"></image>
+    </view >
+    <view class="column2"data-column="2"  data-num="2">
+      <image src="{{ps2[1]}}"></image>
+    </view>
+    <view class="column3"data-column="3"  data-num="2">
+      <image src="{{ps2[2]}}"></image>
+    </view>
+    <view class="column4"data-column="4"  data-num="2">
+      <image src="{{ps2[3]}}"></image>
+    </view>
+    <view class="column5"data-column="5"  data-num="2">
+      <image src="{{ps2[4]}}"></image>
+    </view>
+    </view>
+    <view class="dice2">
+    <view class="column1"bindtap="lock"data-column="1"  data-num="2">
+      <image src="{{pj2[0]}}"></image>
+    </view>
+    <view class="column2"bindtap="lock"data-column="2"  data-num="2">
+      <image src="{{pj2[1]}}"></image>
+    </view>
+    <view class="column3"bindtap="lock"data-column="3"  data-num="2">
+      <image src="{{pj2[2]}}"></image>
+    </view>
+    <view class="column4"bindtap="lock"data-column="4"  data-num="2">
+      <image src="{{pj2[3]}}"></image>
+    </view>
+    <view class="column5"bindtap="lock"data-column="5"  data-num="2">
+      <image src="{{pj2[4]}}"></image>
+    </view>
+    </view>
+</view>
+<view class="menu">
+  <view class='points'>
+          <view>棋手1倍率：{{pc1}}</view>
+          <view>棋手2倍率：{{pc2}}</view>
+          <view>棋手1筹码：{{point1}}</view>
+          <view>棋手2筹码：{{point2}}</view>
+          <view>回合数：{{pju}} </view>
+          <view>玩家：{{pplayturn}}</view>
+          <view>结局：{{pflag}}</view>
+  </view>
+</view>
+<view class="btn11">
+<button size="mini"bindtap="cs1">1</button>
+<button size="mini"bindtap="cs2">2</button>
+<button size="mini"bindtap="cs3">3</button>
+</view>
+<view class="menu2">
+          <view>棋手1分数：{{ppit1}}</view>
+          <view>棋手2分数：{{ppit2}}</view>
+</view>
+<button class="tou"bindtap="rerollDice" style="width: 300rpx;">摇骰子</button>
+<button size="mini" class="ba"bindtap="back">返回主页</button>
+
+
+
+
+
+
+
+
+  
+  
+
+

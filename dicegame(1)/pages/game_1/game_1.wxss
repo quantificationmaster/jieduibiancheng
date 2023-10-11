@@ -1,0 +1,130 @@
+
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -2;
+}
+
+.dice-container {
+  display: flex;
+  width: 100%;
+}
+
+.dice1 {
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 180rpx;
+  text-align: center;
+  font-size: 24px;
+  flex-direction: column;
+  position: relative;
+}
+.dice2{
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 180rpx;
+  text-align: center;
+  font-size: 24px;
+  flex-direction: column;
+  position: absolute;
+  left: 650rpx;
+}
+.menu {
+  border: 1px solid black;
+  background-color: lightpink;
+  width: 300rpx;
+  margin: auto;
+  height: 360rpx;
+  display: flex;
+  flex-direction: column;
+}
+.menu view {
+  margin: auto;
+  padding: 5rpx;
+}
+
+.points {
+  height: 5rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.dice1 image{
+  width: 80rpx;
+    height: 80rpx;
+  
+}
+.dice2 image{
+  width: 80rpx;
+    height: 80rpx;
+}
+.dicesuo1 {
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 180rpx;
+  text-align: center;
+  font-size: 24px;
+  flex-direction: column;
+}
+.dicesuo2{
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 180rpx;
+  text-align: center;
+  font-size: 24px;
+  flex-direction: column;
+  position: absolute;
+  left: 550rpx;
+}
+.dicesuo1 image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.dicesuo2 image{
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.tou{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  top: 150rpx;
+}
+
+.ba{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  top: 200rpx;
+}
+
+.btn11 {
+  
+  width: 40%;
+  margin: auto;
+  justify-content: space-around;
+  display: flex;
+}
+
+.btn11 button {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  margin: 20rpx auto;
+}
+.menu2{
+  border: 1px solid black;
+  background-color: lightpink;
+  width: 300rpx;
+  margin: auto;
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+}
+.menu2 view{
+
+    margin: auto;
+    padding: 5rpx;
+
+}

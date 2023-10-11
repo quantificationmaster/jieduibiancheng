@@ -1,0 +1,43 @@
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -2;
+}
+
+.toptitle{
+  width: 100%;
+  height: 200rpx;
+  font-size: larger;
+  line-height: 100rpx;
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  width: 300rpx;
+  height: 50rpx;
+  text-align: center;
+}
+
+.item {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  width: 300rpx;
+  height: 50rpx;
+  text-align: center;
+}
+
+.btn{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  top: 150rpx;
+}

@@ -1,0 +1,16 @@
+<!--pages/UserInformation/UserInformation.wxml-->
+<bgm />
+<view class="content">
+    <image class='background' src="../../pages/background.jpg" mode="aspectFill"></image>
+  </view>
+ <view class="TopTitle">用户信息</view>
+ <view class="usermassage">
+ <view>
+    <input class="input" placeholder="请输入用户名" bindinput="UsernameInput" />
+  </view>
+  <view>
+    <input class="input" placeholder="请输入密码" password="true" bindinput="onPasswordInput" />
+  </view>
+</view>
+ <button class="btn"  bind:tap="goto">登入</button>
+ <button size="mini" class="btn2" bind:tap="goto2">返回主页</button>

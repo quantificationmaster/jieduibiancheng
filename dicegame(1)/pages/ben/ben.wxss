@@ -1,0 +1,47 @@
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -2;
+}
+
+
+.null{
+  width: 100%;
+  height: 300rpx;
+}
+
+.inputs{
+  width: 70%;
+  height: 280rpx;
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 70rpx;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.inputs input{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  padding: 15rpx;
+  display: flex;
+  margin: 20rpx ;
+  
+}
+.item{
+  margin: 10rpx;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 60rpx;
+  height: 120rpx;
+}
+.item view{
+  line-height: 120rpx;
+}
+
+ button {
+  border: 1px solid black;
+  background-color: rgba(255, 255, 255, 0.5);
+  top: 50rpx;
+}

@@ -1,0 +1,15 @@
+<!--pages/info/info.wxml-->
+<bgm />
+<view class="content">
+    <image class='background' src="https://s2.loli.net/2023/10/10/zg2HeXiAhkfPZLt.jpg" mode="aspectFill"></image>
+  </view>
+  <view class="box">
+  <view class="dice"> 
+  <image src="https://s2.loli.net/2023/10/10/mZrQ7oLaj5lv3Vt.png" mode=""/>
+  </view>
+  <view class="title">
+  <image src="https://s2.loli.net/2023/10/10/FIgCoAO43wsSjc9.png" mode=""/>
+  </view>
+  <button  class="button" bind:tap="goto" style="height: 60px; width: 200px;">开始游戏</button>
+  <button size="mini" type="" class="button2" bind:tap="goto2">游戏规则</button>
+</view>

@@ -1,0 +1,12 @@
+<!--pages/list/list.wxml-->
+<bgm />
+<view class="content">
+    <image class='background' src="https://s2.loli.net/2023/10/10/zg2HeXiAhkfPZLt.jpg" mode="aspectFill"></image>
+  </view>
+  <view class="container">
+   <button style="height: 60px;" bind:tap="goto1">本地对战</button>
+   <button style="height: 60px;" bind:tap="goto2">人机对战</button>
+   <button style="height: 60px;" bind:tap="goto3">在线对战</button>
+  </view>
+ <button size="mini" class="theCharts" bind:tap="goto4">排行榜</button>
+ <button size="mini" class="return" bind:tap="goto5">返回主页</button>

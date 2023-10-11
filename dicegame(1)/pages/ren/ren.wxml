@@ -1,0 +1,15 @@
+
+<bgm />
+<view class="content">
+    <image class='background' src="https://s2.loli.net/2023/10/10/zg2HeXiAhkfPZLt.jpg" mode="aspectFill"></image>
+  </view>
+<view class="null"></view>
+<view class="inputs">
+  <view class="item">
+  <view>筹码</view><input placeholder="请输入第一个参数" bindinput="onInputParam1" />
+  </view>
+ <view class="item"> 
+ <view>局数</view><input placeholder="请输入第二个参数" bindinput="onInputParam2" />
+</view>
+</view>
+<button bindtap="onSubmit">开始游戏</button>

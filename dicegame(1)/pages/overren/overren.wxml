@@ -1,0 +1,13 @@
+<bgm />
+<view class="content">
+    <image class='background' src="https://s2.loli.net/2023/10/10/MgIHZG3ND917VFs.jpg" mode="aspectFill"></image>
+  </view>
+<view class="menu">
+  <view class='points'>
+          <view>棋手1得分：{{bot1}}</view>
+          <view>棋手2得分：{{bot2}}</view>
+          <view>结局：{{play}}</view>
+  </view>
+</view>
+<button class="tou"bindtap="restart" style="width: 300rpx;">再来一局</button>
+<button size="mini" class="ba"bindtap="back">返回主页</button>

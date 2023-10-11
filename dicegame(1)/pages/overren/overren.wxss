@@ -1,0 +1,39 @@
+.background {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-size: 100% 100%;
+  z-index: -2;
+}
+.menu {
+  border: 1px solid black;
+  background-color: lightpink;
+  width: 300rpx;
+  margin: auto;
+  height: 280rpx;
+  display: flex;
+  flex-direction: column;
+}
+.menu view {
+  margin: auto;
+  padding: 5rpx;
+}
+
+.points {
+  height: 5rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.tou{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  top: 260rpx;
+}
+
+.ba{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid black;
+  top: 500rpx;
+}

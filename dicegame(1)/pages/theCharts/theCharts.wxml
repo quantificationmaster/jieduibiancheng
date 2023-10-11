@@ -1,0 +1,32 @@
+<!--pages/theCharts/theCharts.wxml-->
+
+<bgm />
+<view class="content">
+    <image class='background' src="https://s2.loli.net/2023/10/10/zg2HeXiAhkfPZLt.jpg" mode="aspectFill"></image>
+  </view>
+<view class="toptitle">排行榜</view>
+<view class="items">
+<view class="title">用户名</view>
+<view class="title">分数</view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+<view class="item"></view>
+</view>
+<button size="mini" bind:tap="goto" class="btn">返回主页</button>
