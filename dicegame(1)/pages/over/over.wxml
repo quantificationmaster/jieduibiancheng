@@ -6,7 +6,6 @@
   <view class='points'>
           <view>棋手1得分：{{bot1}}</view>
           <view>棋手2得分：{{bot2}}</view>
-          <view>结局：{{play}}</view>
   </view>
 </view>
 <button class="tou"bindtap="restart" style="width: 300rpx;">再来一局</button>

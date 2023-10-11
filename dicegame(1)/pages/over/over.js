@@ -17,17 +17,6 @@ Page({
   onLoad(options) {
       this.setData({ bot1: options.bot1 });
       this.setData({ bot2: options.bot2 });
-      this.setData({play:options.who});
-      if(play==1){
-        yyy=1;
-      }
-      else if(play==2){
-        yyy=2;
-      }
-      else{
-        yyy=3;
-      }
-      this.setData({xxx:yyy});
   },
 
   /**
