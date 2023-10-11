@@ -10,14 +10,14 @@ Page({
   },
   goto1:function() {
     app.addClickAudio()
-    wx.navigateTo({
+    wx.redirectTo({
      url: '/pages/ben/ben',
    })
     },
 
     goto2:function() {
       app.addClickAudio()
-      wx.navigateTo({
+      wx.redirectTo({
        url: '/pages/ren/ren',
      })
       },

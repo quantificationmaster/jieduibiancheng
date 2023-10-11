@@ -66,7 +66,7 @@ Page({
   },
   goto:function() {
     app.addClickAudio()
-    wx.navigateTo({
+    wx.redirectTo({
      url: '/pages/index/index',
    })
   }

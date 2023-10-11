@@ -70,14 +70,14 @@ Page({
 
   restart: function () {
     app.addClickAudio()
-    wx.navigateTo({
+    wx.redirectTo({
       url: '/pages/ben/ben',
     })
   },
 
   back: function () {
     app.addClickAudio()
-    wx.navigateTo({
+    wx.redirectTo({
       url: '/pages/index/index',
     })
   }

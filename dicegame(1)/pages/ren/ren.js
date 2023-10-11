@@ -16,7 +16,7 @@ Page({
   },
   onSubmit() {
     app.addClickAudio()
-    wx.navigateTo({
+    wx.redirectTo({
       url: '/pages/game_2/game_2?ppp=' + this.data.ppp + '&jjj=' + this.data.jjj
     })
   }

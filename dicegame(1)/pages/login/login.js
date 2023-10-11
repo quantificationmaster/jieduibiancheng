@@ -35,7 +35,7 @@ goto: function () {
         wx.setStorageSync('token', res.data.token);
 
         // 跳转到其他页面
-        wx.navigateTo({
+        wx.redirectTo({
           url: '/pages/index/index'
         });
       } else {
@@ -57,7 +57,7 @@ goto: function () {
 
   goto2:function() {
     app.addClickAudio()
-    wx.navigateTo({
+    wx.redirectTo({
       url: '/pages/index/index',
     })
       },

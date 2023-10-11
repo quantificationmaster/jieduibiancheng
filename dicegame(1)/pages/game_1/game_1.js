@@ -463,7 +463,7 @@ Page({
       }
       else{
         zhonghuihe=0;
-        wx.navigateTo({
+        wx.redirectTo({
           url: '/pages/over/over?bot1=' + ppoint1+ '&bot2=' +ppoint2+'&who='+GAME.flag,
       })
       }
@@ -477,7 +477,7 @@ Page({
       }
       else{
         zhonghuihe=0;
-        wx.navigateTo({
+        wx.redirectTo({
           url: '/pages/over/over?bot1=' + ppoint1+ '&bot2=' +ppoint2+'&who='+GAME.flag,
       })
       }
@@ -504,7 +504,7 @@ Page({
     zhonghuihe=0;
     ju=1;
     this.setData({pju:ju});
-    wx.navigateTo({
+    wx.redirectTo({
       url: '/pages/over/over?bot1=' + ppoint1+ '&bot2=' + ppoint2+'&who='+GAME.flag,
   })
   }

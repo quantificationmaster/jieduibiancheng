@@ -463,7 +463,7 @@ Page({
       this.setData({point2:ppoint2});
       }
       else{
-        wx.navigateTo({
+        wx.redirectTo({
           url: '/pages/overren/overren?bot1=' + ppoint1+ '&bot2=' +ppoint2+'&who='+GAME.flag,
       })
       }
@@ -477,7 +477,7 @@ Page({
       this.setData({point2:ppoint2});
       }
       else{
-        wx.navigateTo({
+        wx.redirectTo({
           url: '/pages/overren/overren?bot1=' + ppoint1+ '&bot2=' +ppoint2+'&who='+GAME.flag,
       })
       }
@@ -503,7 +503,7 @@ Page({
   if(ju>zhonghuihe){
     ju=1;
     this.setData({pju:ju});
-    wx.navigateTo({
+    wx.redirectTo({
       url: '/pages/overren/overren?bot1=' + ppoint1+ '&bot2=' + ppoint2+'&who='+GAME.flag,
   })
   }
@@ -589,7 +589,14 @@ Page({
               }
           }
           else{
-
+            for(let i=0;i<5;i++){
+              if(x[i]==x[0]){
+              GAME.lock(i,2);
+              changes(2,i);
+              this.setData({ps2:pps2});
+                sleep(200);
+              }
+              }
           }
         }
       }
