@@ -590,12 +590,12 @@ Page({
           }
           else{
             for(let i=0;i<5;i++){
-              if(x[i]==x[0]){
+              if(xu[i]==x[0]){
               GAME.lock(i,2);
               changes(2,i);
               this.setData({ps2:pps2});
-                sleep(200);
               }
+              sleep(200);
               }
           }
         }
