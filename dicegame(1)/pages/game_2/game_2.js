@@ -160,7 +160,7 @@ class duiju{
           j=30;
         }
     }
-    const h = this.play1.reduce((sum, value) => sum + value, 0);
+    const h = this.play2.reduce((sum, value) => sum + value, 0);
     return j + h;
    }
    jie(){
